@@ -3,7 +3,7 @@ import { splitPath } from './utils.js'
 import { TarReader } from '@gera2ld/tarjs'
 import ruffInit, { Workspace as RuffWorkspace } from '@astral-sh/ruff-wasm-web'
 
-const BASE_URL = 'https://viper-ide.org';
+const BASE_URL = 'https://boss-1s.github.io/ViperIDE';
 
 export function parseStackTrace(stackTrace)
 {
@@ -263,3 +263,4 @@ f.close()
 
     return vm.FS.readFile("/tmp/file.mpy.dis", { encoding: 'utf8' })
 }
+
